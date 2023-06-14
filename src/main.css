@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.np-table-row-list_admin{
+    @apply border-2 pl-[15px] h-[180px];
+}
+.np-About-colum-div{
+    @apply bg-white w-[400px] h-[550px];
+}
+.np-about-colum-img{
+    @apply w-[400px] h-[300px];
+}
+.np-about-colum-div-text{
+    @apply px-[30px] pt-[30px];
+}
+.np-about-colum-h3-text{
+    @apply font-bold text-[20px] py-[15px];
+}
+.np-about-colum-p-text{
+    @apply  text-[18px];
+}
+.np-about-colum-img-1{
+    @apply w-[400px] h-[400px];
+}
+.np-about-colum-div-text-1{
+    @apply px-[30px] pt-[30px] text-center;
+}
