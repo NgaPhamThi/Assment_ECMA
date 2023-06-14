@@ -1,15 +1,11 @@
 import { getUsers } from "../api/auth";
 import { useEffect, useState } from "../lib";
-
+import { router } from "../lib";
 const Signin = () => {
   const [user, setUser] = useState([])
   useEffect(() => {
-    getUsers().then(({ data }) => {
-      // console.log(data)
-      setUser(data)
-    })
-
     console.log(user);
+
     const signupForm = document.querySelector('#signin-form')
     signupForm.addEventListener('submit', (event) => {
       event.preventDefault()
@@ -19,7 +15,15 @@ const Signin = () => {
         "password": document.querySelector('#password').value,
 
       }
-      // user.find((item)=>item.)
+      getUsers().then(({ data }) => {
+        data.forEach(item => {
+          if (item.username == userNew.username && item.email == userNew.email && item.password == userNew.password) {
+            router.navigate('/admin/project')
+            alert("Đăng ký thành công")
+          }
+        });
+
+      })
 
     })
 
