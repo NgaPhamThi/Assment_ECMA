@@ -26,19 +26,27 @@
     },
     {
       "id": 4,
-      "title": "22% Protein Pet Food Probiotic Heart Shape Content Adult Probiotics Dog Food",
+      "title": "22% Protein Pet Food Probiotic Heart Shape Content Adult Probiotics Dog Food Update",
       "description": "OEM/ODM dog food,easy to chew and digest.Product through the strict production process, the domestic spectrum testing safety certification.24h customer service, quick response to customization needs.",
       "image": "https://haisenpetfood.com/wp-content/uploads/2022/11/%E7%8B%97%E7%B2%AE%E4%B8%BB%E5%9B%BE%E9%BB%84%E8%89%B2-%E7%8B%973.jpg",
       "url": "https://seta-international.com/",
       "repository": "https://github.com/"
     },
     {
-      "id": 5,
       "title": "Hot Selling OEM ODM Multiple Flavors Pet Food Cat Dog Snack Cans",
       "description": "OEM/ODM dog food,easy to chew and digest.24h customer service, quick response to customization needs.A variety of imported raw materials,origin can be traced,through strict quality certification.",
       "image": "https://haisenpetfood.com/wp-content/uploads/2022/11/%E4%B8%BB%E5%9B%BE-%E7%89%9B%E8%82%89.jpg",
-      "url": "https://seta-international.com/",
-      "repository": "https://github.com/"
+      "url": "https://haisenpetfood.com/product/18-grams-hot-selling-salmon-flavor-pet-dog-cat-snacks-for-cat-food-wet/",
+      "repository": "https://github.com/",
+      "id": 5
+    },
+    {
+      "title": "Hot Selling OEM ODM Multiple Flavors Pet Food Cat Dog Snack Cans",
+      "description": "A variety of flavors，easy to chew and digest.24h customer service, quick response to customization needs.A variety of imported raw materials,origin can be traced,through strict quality certification.",
+      "image": "https://haisenpetfood.com/wp-content/uploads/2022/11/%E4%B8%BB%E5%9B%BE04.jpg",
+      "url": "https://haisenpetfood.com/",
+      "repository": "https://github.com/",
+      "id": 6
     }
   ],
   "users": [
@@ -55,22 +63,10 @@
       "password": "111111"
     },
     {
-      "username": "nga Pham ",
-      "email": "ngaphamthi@gmail.com",
+      "username": "Pham Hong Hai",
+      "email": "haiphph19329@fpt.edu.vn",
       "password": "000000",
       "id": 3
-    },
-    {
-      "username": "nga Pham Thi",
-      "email": "ngaphamthi456@gmail.com",
-      "password": "222222",
-      "id": 4
-    },
-    {
-      "username": "nga Pham",
-      "email": "ngaphamthi@gmail.com",
-      "password": "111111",
-      "id": 5
     }
   ]
 }
