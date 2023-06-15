@@ -6,8 +6,8 @@ const Signin = () => {
   useEffect(() => {
     console.log(user);
 
-    const signupForm = document.querySelector('#signin-form')
-    signupForm.addEventListener('submit', (event) => {
+    const signinForm = document.querySelector('#signin-form')
+    signinForm.addEventListener('submit', (event) => {
       event.preventDefault()
       const userNew = {
         "username": document.querySelector('#username').value,
